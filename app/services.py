@@ -4,7 +4,7 @@ def analyze_text(text: str):
   blob = TextBlob(text)
   polarity = blob.sentiment.polarity
 
-  sentiment = "Positivo" if polarity > 0 else "Negativo" if polarity < 0 else "Neutro"
+  sentiment = "Positive" if polarity > 0 else "Negative" if polarity < 0 else "Neutral"
   
   
   return {
