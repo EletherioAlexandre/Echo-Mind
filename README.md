@@ -1,6 +1,6 @@
 # EchoMind — Plataforma de Análise de Sentimentos
 
-EchoMind é uma plataforma de análise de sentimentos desenvolvida para transformar feedbacks de usuários em insights estratégicos para negócios.
+EchoMind é uma plataforma, em desenvolvimento, de análise de sentimentos desenvolvida para transformar feedbacks de usuários em insights estratégicos para negócios.
 
 Este projeto integra um microserviço de IA, responsável por analisar e classificar textos de usuários em positivos, negativos ou neutros, utilizando o modelo TextBlob (Python). A arquitetura prevê integração com backend .NET, formando uma base sólida para aplicações corporativas de análise inteligente de dados.
 
