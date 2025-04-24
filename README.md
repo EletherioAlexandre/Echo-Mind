@@ -2,19 +2,23 @@
 
 EchoMind é uma plataforma, em desenvolvimento, de análise de sentimentos desenvolvida para transformar feedbacks de usuários em insights estratégicos para negócios.
 
-Este projeto integra um microserviço de IA, responsável por analisar e classificar textos de usuários em positivos, negativos ou neutros, utilizando o modelo TextBlob (Python). A arquitetura prevê integração com backend .NET, formando uma base sólida para aplicações corporativas de análise inteligente de dados.
+Este projeto integra dois serviços distintos:
+- Um microserviço Python com FastAPI, responsável por analisar os sentimentos.
+- Uma API backend em .NET, estruturada com validações FluentValidation, preparada para integração com banco de dados, serviços e a IA.
 
 ## Funcionalidades atuais
 
-- API Python com FastAPI
-- Processamento de linguagem natural (NLP) com TextBlob
-- Estrutura modular e profissional para expansão futura
+- **API Python com FastAPI**  
+- **Análise de sentimentos com TextBlob (Inglês)**  
+- **API .NET estruturada com DDD, validação e separação de camadas**  
+- **Validação com FluentValidation**
 
 ## Próximos passos
 
-- Integração com backend .NET
-- Dockerização do serviço
-- Evolução para modelos de IA multilíngues (HuggingFace Transformers)
+- Integração entre .NET e Python via HTTP
+- Persistência no banco de dados
+- Evolução da IA com modelos multilíngues (HuggingFace Transformers)
+- Implementação de CI/CD
 - Automação de relatórios e alertas inteligentes
 
 ## Como rodar o projeto
@@ -78,14 +82,48 @@ Siga as seguintes etapas para execução do projeto:
 
 ---
 
-## Tecnologias Utilizadas
+### 🧩 API .NET
 
-- Python 3.11
-- FastAPI
-- TextBlob
-- Docker
+> Essa API está estruturada em múltiplas camadas, com arquitetura inspirada em DDD.
+
+**Projetos:**
+
+- `EchoMind.Api`: camada de apresentação
+- `EchoMind.Application`: regras de negócio (UseCases, validações)
+- `EchoMind.Communication`: contratos de entrada e saída (DTOs)
+- `EchoMind.Domain`: entidades e abstrações
+- `EchoMind.Infrastructure`: futura camada de persistência e serviços externos
+- `EchoMind.Exception`: camada de tratamento de erros customizados
+
+**Como rodar:**
+
+1. Abra a solução no Visual Studio:  
+   `EchoMind.sln`
+
+2. Defina o projeto `EchoMind.Api` como startup
+
+3. Execute o projeto (F5 ou Ctrl+F5)
+
+---
+
+## 🧱 EchoMind API — Dockerfile (.NET)
+
+> *Ainda não implementado para a API .NET.*  
+Será estruturado futuramente para facilitar deploy em containers, com CI/CD.
+
+---
+
+## 🧠 Tecnologias Utilizadas
+
+- Python  
+- FastAPI  
+- TextBlob  
+- C# / .NET 8  
+- FluentValidation  
+- Docker  
 - Git & GitHub
 
+---
 
 ## Autor
 
