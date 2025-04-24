@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EchoMind.Application\EchoMind.Application.csproj" />
+    <ProjectReference Include="..\EchoMind.Communication\EchoMind.Communication.csproj" />
+    <ProjectReference Include="..\EchoMind.Exception\EchoMind.Exception.csproj" />
+    <ProjectReference Include="..\EchoMind.Infrastructure\EchoMind.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
