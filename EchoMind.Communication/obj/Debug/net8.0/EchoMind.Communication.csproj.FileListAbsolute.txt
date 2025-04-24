@@ -21,3 +21,15 @@ C:\projects\EchoMindProject\ai-python-service\dotnet-api\EchoMind\EchoMind.Commu
 C:\projects\EchoMindProject\ai-python-service\dotnet-api\EchoMind\EchoMind.Communication\obj\Debug\net8.0\refint\EchoMind.Communication.dll
 C:\projects\EchoMindProject\ai-python-service\dotnet-api\EchoMind\EchoMind.Communication\obj\Debug\net8.0\EchoMind.Communication.pdb
 C:\projects\EchoMindProject\ai-python-service\dotnet-api\EchoMind\EchoMind.Communication\obj\Debug\net8.0\ref\EchoMind.Communication.dll
+C:\projects\EchoMindProject\Echo-Mind\dotnet-api\EchoMind.Communication\bin\Debug\net8.0\EchoMind.Communication.deps.json
+C:\projects\EchoMindProject\Echo-Mind\dotnet-api\EchoMind.Communication\bin\Debug\net8.0\EchoMind.Communication.dll
+C:\projects\EchoMindProject\Echo-Mind\dotnet-api\EchoMind.Communication\bin\Debug\net8.0\EchoMind.Communication.pdb
+C:\projects\EchoMindProject\Echo-Mind\dotnet-api\EchoMind.Communication\obj\Debug\net8.0\EchoMind.Communication.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\EchoMindProject\Echo-Mind\dotnet-api\EchoMind.Communication\obj\Debug\net8.0\EchoMind.Communication.AssemblyInfoInputs.cache
+C:\projects\EchoMindProject\Echo-Mind\dotnet-api\EchoMind.Communication\obj\Debug\net8.0\EchoMind.Communication.AssemblyInfo.cs
+C:\projects\EchoMindProject\Echo-Mind\dotnet-api\EchoMind.Communication\obj\Debug\net8.0\EchoMind.Communication.csproj.CoreCompileInputs.cache
+C:\projects\EchoMindProject\Echo-Mind\dotnet-api\EchoMind.Communication\obj\Debug\net8.0\EchoMind.Communication.sourcelink.json
+C:\projects\EchoMindProject\Echo-Mind\dotnet-api\EchoMind.Communication\obj\Debug\net8.0\EchoMind.Communication.dll
+C:\projects\EchoMindProject\Echo-Mind\dotnet-api\EchoMind.Communication\obj\Debug\net8.0\refint\EchoMind.Communication.dll
+C:\projects\EchoMindProject\Echo-Mind\dotnet-api\EchoMind.Communication\obj\Debug\net8.0\EchoMind.Communication.pdb
+C:\projects\EchoMindProject\Echo-Mind\dotnet-api\EchoMind.Communication\obj\Debug\net8.0\ref\EchoMind.Communication.dll

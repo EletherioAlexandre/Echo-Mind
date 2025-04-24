@@ -104,11 +104,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\EchoMindProject\\ai-python-service\\dotnet-api\\EchoMind\\EchoMind.Application\\EchoMind.Application.csproj",
+      "projectUniqueName": "C:\\projects\\EchoMindProject\\Echo-Mind\\dotnet-api\\EchoMind.Application\\EchoMind.Application.csproj",
       "projectName": "EchoMind.Application",
-      "projectPath": "C:\\projects\\EchoMindProject\\ai-python-service\\dotnet-api\\EchoMind\\EchoMind.Application\\EchoMind.Application.csproj",
+      "projectPath": "C:\\projects\\EchoMindProject\\Echo-Mind\\dotnet-api\\EchoMind.Application\\EchoMind.Application.csproj",
       "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\EchoMindProject\\ai-python-service\\dotnet-api\\EchoMind\\EchoMind.Application\\obj\\",
+      "outputPath": "C:\\projects\\EchoMindProject\\Echo-Mind\\dotnet-api\\EchoMind.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -129,14 +129,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\projects\\EchoMindProject\\ai-python-service\\dotnet-api\\EchoMind\\EchoMind.Communication\\EchoMind.Communication.csproj": {
-              "projectPath": "C:\\projects\\EchoMindProject\\ai-python-service\\dotnet-api\\EchoMind\\EchoMind.Communication\\EchoMind.Communication.csproj"
+            "C:\\projects\\EchoMindProject\\Echo-Mind\\dotnet-api\\EchoMind.Communication\\EchoMind.Communication.csproj": {
+              "projectPath": "C:\\projects\\EchoMindProject\\Echo-Mind\\dotnet-api\\EchoMind.Communication\\EchoMind.Communication.csproj"
             },
-            "C:\\projects\\EchoMindProject\\ai-python-service\\dotnet-api\\EchoMind\\EchoMind.Domain\\EchoMind.Domain.csproj": {
-              "projectPath": "C:\\projects\\EchoMindProject\\ai-python-service\\dotnet-api\\EchoMind\\EchoMind.Domain\\EchoMind.Domain.csproj"
+            "C:\\projects\\EchoMindProject\\Echo-Mind\\dotnet-api\\EchoMind.Domain\\EchoMind.Domain.csproj": {
+              "projectPath": "C:\\projects\\EchoMindProject\\Echo-Mind\\dotnet-api\\EchoMind.Domain\\EchoMind.Domain.csproj"
             },
-            "C:\\projects\\EchoMindProject\\ai-python-service\\dotnet-api\\EchoMind\\EchoMind.Exception\\EchoMind.Exception.csproj": {
-              "projectPath": "C:\\projects\\EchoMindProject\\ai-python-service\\dotnet-api\\EchoMind\\EchoMind.Exception\\EchoMind.Exception.csproj"
+            "C:\\projects\\EchoMindProject\\Echo-Mind\\dotnet-api\\EchoMind.Exception\\EchoMind.Exception.csproj": {
+              "projectPath": "C:\\projects\\EchoMindProject\\Echo-Mind\\dotnet-api\\EchoMind.Exception\\EchoMind.Exception.csproj"
             }
           }
         }

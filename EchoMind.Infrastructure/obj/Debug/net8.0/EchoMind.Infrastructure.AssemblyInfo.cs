@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EchoMind.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be94a9a69d6b77ec2f5236f2cf4ec8f690db21af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65e89847b5f41dbe599988410e00aba00fd8b24b")]
 [assembly: System.Reflection.AssemblyProductAttribute("EchoMind.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EchoMind.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
