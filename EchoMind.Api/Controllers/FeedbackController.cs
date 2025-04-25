@@ -21,11 +21,12 @@ namespace EchoMind.Api.Controllers
 
 
         [HttpPost]
+        [ProducesResponseType(typeof(ResponseRegisterFeedbackJson), StatusCodes.Status201Created)]
         public IActionResult Register([FromBody] RequestRegisterFeedbackJson request)
         {
-            _useCase.Execute(request);
+            ResponseRegisterFeedbackJson response = _useCase.Execute(request);
 
-            return Created(string.Empty, request);
+            return Created(string.Empty, response);
         }
     }
 }

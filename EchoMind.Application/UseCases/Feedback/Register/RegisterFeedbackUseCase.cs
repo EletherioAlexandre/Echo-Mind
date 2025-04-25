@@ -15,11 +15,12 @@ namespace EchoMind.Application.UseCases.Feedback.Register
             _validator = validator;
         }
 
-        public void Execute(RequestRegisterFeedbackJson request)
+        public ResponseRegisterFeedbackJson Execute(RequestRegisterFeedbackJson request)
         {
             Validate(request);
 
-            // TODO return response
+            return new ResponseRegisterFeedbackJson(request);
+
         }
 
         public void Validate(RequestRegisterFeedbackJson request)
