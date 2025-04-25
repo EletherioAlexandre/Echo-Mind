@@ -10,9 +10,14 @@ namespace EchoMind.Application.UseCases.Feedback.Register
             RuleFor(f => f.Text)
                 .Cascade(CascadeMode.Stop)
                 .NotEmpty().WithMessage("Text is required to register feedback.")
-                .MinimumLength(5).WithMessage("Feedback text must have at least 5 characters");
+                .MinimumLength(5).WithMessage("Feedback text must have at least 5 characters.");
 
-            RuleFor(f => f.Date).LessThanOrEqualTo(DateTime.UtcNow).WithMessage("Feedback cannot be in the future.");
+            RuleFor(f => f.CreatedAt).LessThanOrEqualTo(DateTime.UtcNow).WithMessage("Feedback cannot be in the future.");
+
+            When(f => !f.IsAnonymous, () =>
+            {
+                RuleFor(n => n.Name).NotEmpty().WithMessage("Name is required when the feedback is not anonymous.");
+            });
 
         }
     }

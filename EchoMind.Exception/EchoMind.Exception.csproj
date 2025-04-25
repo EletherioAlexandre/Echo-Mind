@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EchoMind.Communication\EchoMind.Communication.csproj" />
+  </ItemGroup>
+
 </Project>

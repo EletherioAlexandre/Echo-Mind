@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\EchoMindProject\\Echo-Mind\\dotnet-api\\EchoMind.Communication\\EchoMind.Communication.csproj",
+      "projectUniqueName": "C:\\projects\\EchoMindProject\\Echo-Mind\\EchoMind.Communication\\EchoMind.Communication.csproj",
       "projectName": "EchoMind.Communication",
-      "projectPath": "C:\\projects\\EchoMindProject\\Echo-Mind\\dotnet-api\\EchoMind.Communication\\EchoMind.Communication.csproj",
+      "projectPath": "C:\\projects\\EchoMindProject\\Echo-Mind\\EchoMind.Communication\\EchoMind.Communication.csproj",
       "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\EchoMindProject\\Echo-Mind\\dotnet-api\\EchoMind.Communication\\obj\\",
+      "outputPath": "C:\\projects\\EchoMindProject\\Echo-Mind\\EchoMind.Communication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

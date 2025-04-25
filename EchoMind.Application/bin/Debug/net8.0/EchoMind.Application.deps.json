@@ -42,6 +42,9 @@
         }
       },
       "EchoMind.Exception/1.0.0": {
+        "dependencies": {
+          "EchoMind.Communication": "1.0.0"
+        },
         "runtime": {
           "EchoMind.Exception.dll": {
             "assemblyVersion": "1.0.0",

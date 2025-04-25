@@ -1,3 +1,4 @@
+using EchoMind.Api.Filters;
 using EchoMind.Application.UseCases.Feedback.Register;
 using FluentValidation;
 
@@ -12,6 +13,8 @@ builder.Services.AddRouting(options => options.LowercaseUrls = true);
 builder.Services.AddScoped<RegisterFeedbackUseCase>();
 
 builder.Services.AddValidatorsFromAssemblyContaining<RegisterFeedbackValidator>();
+
+builder.Services.AddMvc(options => options.Filters.Add(typeof(ExceptionFilter)));
 
 
 var app = builder.Build();

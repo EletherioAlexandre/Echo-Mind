@@ -1,5 +1,7 @@
-﻿using EchoMind.Application.UseCases.Feedback.Register;
+﻿using System.ComponentModel.DataAnnotations;
+using EchoMind.Application.UseCases.Feedback.Register;
 using EchoMind.Communication.Requests;
+using EchoMind.Communication.Responses;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,11 +21,11 @@ namespace EchoMind.Api.Controllers
 
 
         [HttpPost]
-        public IActionResult Register([FromBody]RequestRegisterFeedbackJson request)
+        public IActionResult Register([FromBody] RequestRegisterFeedbackJson request)
         {
             _useCase.Execute(request);
 
-            return Created(string.Empty, null);
+            return Created(string.Empty, request);
         }
     }
 }

@@ -1,4 +1,6 @@
 ﻿using EchoMind.Communication.Requests;
+using EchoMind.Communication.Responses;
+using EchoMind.Exception.ExceptionsBase;
 using FluentValidation;
 
 namespace EchoMind.Application.UseCases.Feedback.Register
@@ -16,6 +18,8 @@ namespace EchoMind.Application.UseCases.Feedback.Register
         public void Execute(RequestRegisterFeedbackJson request)
         {
             Validate(request);
+
+            // TODO return response
         }
 
         public void Validate(RequestRegisterFeedbackJson request)
@@ -25,8 +29,13 @@ namespace EchoMind.Application.UseCases.Feedback.Register
 
             if (!result.IsValid)
             {
-                List<string> errors = result.Errors.Select(e => e.ErrorMessage).ToList();
-                throw new ValidationException(string.Join(" | ", errors));
+                var errors = result.Errors.Select(e => new ErrorField
+                {
+                    Field = e.PropertyName,
+                    Message = e.ErrorMessage
+                }).ToList();
+
+                throw new ErrorsOnValidationException(errors);
             }
 
         }

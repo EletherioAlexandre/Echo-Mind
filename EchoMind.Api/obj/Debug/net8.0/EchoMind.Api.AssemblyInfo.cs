@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EchoMind.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65e89847b5f41dbe599988410e00aba00fd8b24b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba865a2303e8d4185be46cb147076669d4856f37")]
 [assembly: System.Reflection.AssemblyProductAttribute("EchoMind.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EchoMind.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

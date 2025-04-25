@@ -33,3 +33,15 @@ C:\projects\EchoMindProject\Echo-Mind\dotnet-api\EchoMind.Domain\obj\Debug\net8.
 C:\projects\EchoMindProject\Echo-Mind\dotnet-api\EchoMind.Domain\obj\Debug\net8.0\refint\EchoMind.Domain.dll
 C:\projects\EchoMindProject\Echo-Mind\dotnet-api\EchoMind.Domain\obj\Debug\net8.0\EchoMind.Domain.pdb
 C:\projects\EchoMindProject\Echo-Mind\dotnet-api\EchoMind.Domain\obj\Debug\net8.0\ref\EchoMind.Domain.dll
+C:\projects\EchoMindProject\Echo-Mind\EchoMind.Domain\bin\Debug\net8.0\EchoMind.Domain.deps.json
+C:\projects\EchoMindProject\Echo-Mind\EchoMind.Domain\bin\Debug\net8.0\EchoMind.Domain.dll
+C:\projects\EchoMindProject\Echo-Mind\EchoMind.Domain\bin\Debug\net8.0\EchoMind.Domain.pdb
+C:\projects\EchoMindProject\Echo-Mind\EchoMind.Domain\obj\Debug\net8.0\EchoMind.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\EchoMindProject\Echo-Mind\EchoMind.Domain\obj\Debug\net8.0\EchoMind.Domain.AssemblyInfoInputs.cache
+C:\projects\EchoMindProject\Echo-Mind\EchoMind.Domain\obj\Debug\net8.0\EchoMind.Domain.AssemblyInfo.cs
+C:\projects\EchoMindProject\Echo-Mind\EchoMind.Domain\obj\Debug\net8.0\EchoMind.Domain.csproj.CoreCompileInputs.cache
+C:\projects\EchoMindProject\Echo-Mind\EchoMind.Domain\obj\Debug\net8.0\EchoMind.Domain.sourcelink.json
+C:\projects\EchoMindProject\Echo-Mind\EchoMind.Domain\obj\Debug\net8.0\EchoMind.Domain.dll
+C:\projects\EchoMindProject\Echo-Mind\EchoMind.Domain\obj\Debug\net8.0\refint\EchoMind.Domain.dll
+C:\projects\EchoMindProject\Echo-Mind\EchoMind.Domain\obj\Debug\net8.0\EchoMind.Domain.pdb
+C:\projects\EchoMindProject\Echo-Mind\EchoMind.Domain\obj\Debug\net8.0\ref\EchoMind.Domain.dll

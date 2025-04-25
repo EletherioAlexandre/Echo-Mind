@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ym7+zihgWzI=",
+  "dgSpecHash": "4VsEPAZuvgE=",
   "success": true,
-  "projectFilePath": "C:\\projects\\EchoMindProject\\Echo-Mind\\dotnet-api\\EchoMind.Api\\EchoMind.Api.csproj",
+  "projectFilePath": "C:\\projects\\EchoMindProject\\Echo-Mind\\EchoMind.Api\\EchoMind.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pichau\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",

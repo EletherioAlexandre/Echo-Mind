@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FfAEO1cVX0E=",
+  "dgSpecHash": "1YH86LojpzI=",
   "success": true,
-  "projectFilePath": "C:\\projects\\EchoMindProject\\Echo-Mind\\dotnet-api\\EchoMind.Exception\\EchoMind.Exception.csproj",
+  "projectFilePath": "C:\\projects\\EchoMindProject\\Echo-Mind\\EchoMind.Exception\\EchoMind.Exception.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -42,11 +42,18 @@
       "RequestRegisterFeedbackJson": {
         "type": "object",
         "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "isAnonymous": {
+            "type": "boolean"
+          },
           "text": {
             "type": "string",
             "nullable": true
           },
-          "date": {
+          "createdAt": {
             "type": "string",
             "format": "date-time"
           }

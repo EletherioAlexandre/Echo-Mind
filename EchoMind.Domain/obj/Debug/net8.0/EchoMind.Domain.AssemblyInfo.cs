@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EchoMind.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65e89847b5f41dbe599988410e00aba00fd8b24b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f144be7b04aa68484dd0bb3380e319aee5ab449")]
 [assembly: System.Reflection.AssemblyProductAttribute("EchoMind.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EchoMind.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
