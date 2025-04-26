@@ -23,11 +23,11 @@ namespace EchoMind.Domain.Entities
 
         private void Validate()
         {
-            List<ErrorField> errors = new List<ErrorField>();
+            List<ErrorDomainField> errors = new List<ErrorDomainField>();
 
             if (!IsAnonymous && string.IsNullOrWhiteSpace(Name))
             {
-                errors.Add(new ErrorField
+                errors.Add(new ErrorDomainField
                 {
                     Field = "Name",
                     Message = "Name is required when the feedback is not anonymous."
@@ -36,7 +36,7 @@ namespace EchoMind.Domain.Entities
 
             if (string.IsNullOrWhiteSpace(Message))
             {
-                errors.Add(new ErrorField
+                errors.Add(new ErrorDomainField
                 {
                     Field = "Message",
                     Message = "Text is required to register feedback."
@@ -45,7 +45,7 @@ namespace EchoMind.Domain.Entities
 
             if (!string.IsNullOrWhiteSpace(Message) && Message.Length < 5)
             {
-                errors.Add(new ErrorField
+                errors.Add(new ErrorDomainField
                 {
                     Field = "Message",
                     Message = "Feedback text must have at least 5 characters."
@@ -54,7 +54,7 @@ namespace EchoMind.Domain.Entities
 
             if (DateTime.Compare(CreatedAt, DateTime.UtcNow) > 0)
             {
-                errors.Add(new ErrorField
+                errors.Add(new ErrorDomainField
                 {
                     Field = "CreatedAt",
                     Message = "Feedback cannot be in the future."

@@ -7,7 +7,7 @@ namespace EchoMind.Application.UseCases.Feedback.Register
     {
         public RegisterFeedbackValidator()
         {
-            RuleFor(f => f.Text)
+            RuleFor(f => f.Message)
                 .Cascade(CascadeMode.Stop)
                 .NotEmpty().WithMessage("Text is required to register feedback.")
                 .MinimumLength(5).WithMessage("Feedback text must have at least 5 characters.");

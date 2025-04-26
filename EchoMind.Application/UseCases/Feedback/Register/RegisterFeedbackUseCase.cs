@@ -1,5 +1,7 @@
 ﻿using EchoMind.Communication.Requests;
 using EchoMind.Communication.Responses;
+using FeedbackEntity = EchoMind.Domain.Entities.Feedback;
+using EchoMind.Domain.Exceptions;
 using EchoMind.Exception.ExceptionsBase;
 using FluentValidation;
 
@@ -19,7 +21,14 @@ namespace EchoMind.Application.UseCases.Feedback.Register
         {
             Validate(request);
 
-            return new ResponseRegisterFeedbackJson(request);
+            FeedbackEntity feedback = new FeedbackEntity(request.Message, request.CreatedAt, request.IsAnonymous, request.Name);
+
+            return new ResponseRegisterFeedbackJson
+            {
+                Id = feedback.Id,
+                CreatedAt = feedback.CreatedAt,
+                Message = feedback.Message
+            };
 
         }
 

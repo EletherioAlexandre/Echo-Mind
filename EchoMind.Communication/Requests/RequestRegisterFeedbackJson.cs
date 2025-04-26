@@ -4,7 +4,7 @@
     {
         public string Name { get; set; } = string.Empty;
         public bool IsAnonymous { get; set; }
-        public string Text { get; set; } = string.Empty;
+        public string Message { get; set; } = string.Empty;
         public DateTime CreatedAt { get; set; }
     }
 }
