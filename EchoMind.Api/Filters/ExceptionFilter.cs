@@ -9,7 +9,7 @@ namespace EchoMind.Api.Filters
     {
         public void OnException(ExceptionContext context)
         {
-            if (context.Exception is EchoMindException)
+            if (context.Exception is EchoMindBaseException)
             {
                 HandleProjectException(context);
             }
